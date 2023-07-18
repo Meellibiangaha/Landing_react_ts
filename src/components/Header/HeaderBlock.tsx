@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './header.css'
+import '../../styles/header.css';
 
 import HaderNav from './HeaderNav';
 import HeaderContent from './HeaderContent';

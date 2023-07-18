@@ -1,0 +1,15 @@
+.button__square{
+    padding: 15px 30px;
+
+	color: #fff;
+
+	border: 1.5px solid #2EECC5;
+	background: rgba(46, 236, 197, 0.10);
+
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.button__square:hover{
+    box-shadow: 0px 0px 37px 0px rgba(46, 236, 197, 0.20);
+}
