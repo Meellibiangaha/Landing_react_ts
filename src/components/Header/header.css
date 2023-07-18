@@ -1,0 +1,146 @@
+.header__wrapper {
+	background: url(../../img/header/background_header.png) no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.header__background {
+	background: rgba(0, 0, 0, 0.85);
+}
+
+.header__nav__wrapper {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 50px 300px;
+}
+
+.header__wrapper__bottomLine{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background: linear-gradient(90deg, rgba(46, 236, 197,0.2) 0%, rgba(46, 236, 197,1) 47%, rgba(46, 236, 197,0.2) 99%);
+	height: 2px;
+}
+
+.header__nav__wrapper__links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav {
+	padding-right: 30px;
+
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.header__nav:hover {
+	color: #B5FEEF;
+}
+
+.header__nav__btn__wrapper {
+	margin-left: 70px;
+}
+
+.header__nav__btn {
+	padding: 15px 30px;
+
+	color: #fff;
+	border-radius: 49px;
+	border: 1.5px solid #2EECC5;
+	background: rgba(46, 236, 197, 0.10);
+
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.header__nav__btn:hover {
+	box-shadow: 0px 0px 37px 0px rgba(46, 236, 197, 0.20);
+}
+
+.header__content {
+	width: 80%;
+	padding: 150px 250px 200px;
+}
+
+.header__content__bigText {
+	padding-bottom: 0px;
+	margin-bottom: 0;
+	font-size: 65px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	background: linear-gradient(149deg, #B5FEEF 0%, #2EECC5 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.header__content__smallText {
+	padding-top: 30px;
+	color: rgba(255, 255, 255, 0.65);
+
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.header__content__btnDiv {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header__content__btn {
+	margin-right: 40px;
+}
+
+.header__content__btnDiv_text {
+	color: rgba(255, 255, 255, 0.40);
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+.header__content__btnDiv_text:hover{
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.header__content__shadow {
+	position: absolute;
+	width: 40%;
+
+	bottom: 55%;
+
+	transition-duration: 0.3s;
+	box-shadow: 0px 0px 100px 100px rgba(84, 176, 229, 0.09);
+}
+
+
+.header__img__relative1{
+	position: relative;
+}
+
+.header__img__relative1{
+	position: relative;
+	margin-left: 10px;
+}
+
+.header__img__relative2{
+	position: relative;
+	margin-left: 10px;
+}
