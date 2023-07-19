@@ -1,11 +1,10 @@
-import React from 'react';
-
 import '../../styles/cooperate.css';
+import CooperateContent from './CooperateContent';
 
 function CooperateSection() {
   return (
-    <div>
-
+    <div className='cooperate__wrapper'>
+        <CooperateContent/>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import MyButtonRounded from '../UI/MyButton/MyButtonRounded';
 
 import headerLogo from '../../img/header/logo.png';

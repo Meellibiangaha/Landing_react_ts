@@ -1,4 +1,3 @@
-import React from 'react';
 import headerMenImage from '../../img/header/men.png';
 import headerCircleImage from '../../img/header/men_circle.png';
 

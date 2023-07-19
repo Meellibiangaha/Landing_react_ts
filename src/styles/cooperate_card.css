@@ -1,0 +1,16 @@
+.cooparate__card__wrapper {
+    min-width: 289px;
+    min-height: 289px;
+
+    border-radius: 6px;
+    background: linear-gradient(140deg, #303134 0%, #282828 51.98%, #282828 92.79%);
+    box-shadow: 0px 0px 80px 0px rgba(44, 44, 45, 0.35);
+
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.cooparate__card__wrapper:hover {
+    background: linear-gradient(140deg, #527791 0%, #325597 51.98%, #193895 92.79%);
+    box-shadow: 0px 0px 150px 0px rgba(59, 95, 150, 0.35);
+}
