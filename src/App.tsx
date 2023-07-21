@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderBlock from './components/Header/HeaderBlock';
 import CooperateSection from './components/Cooperate/CooperateSection';
+import PortfolioSection from './components/Portfolio/PortfolioSection';
 
 
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <HeaderBlock />
       <CooperateSection />
+      <PortfolioSection/>
     </>
   );
 }
