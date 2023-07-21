@@ -1,15 +1,14 @@
 import '../../styles/cooperate_card.css';
-function CooperateCard({bigText, smallText, imgSrc}: {bigText:string, smallText:string, imgSrc: string}) {
+
+import MySvgComponent from '../MySvgComponent/MySvgComponent';
+function CooperateCard({bigText, smallText, svgElem}: {bigText:string, smallText:string, svgElem: string}) {
+    // Создаем React-элемент из SVG-кода
+
     return (
         <div className='cooparate__card__wrapper'>
-            <h3>{bigText}</h3>
-            <p>{smallText}</p>
-            <img 
-            src={imgSrc} 
-            alt="" 
-            width='211px'
-            height='211px'
-            />
+            <h3 className='cooparate__card_h3'>{bigText}</h3>
+            <p className='cooparate__card_p'>{smallText}</p>
+            <MySvgComponent className='svg__hover' svgCode={svgElem}/>
         </div>
     );
 }
