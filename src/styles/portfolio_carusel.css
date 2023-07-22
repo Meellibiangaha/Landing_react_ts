@@ -1,0 +1,85 @@
+.slider__container__wrapper{
+    width: 1360px;
+    overflow: hidden;
+    padding: 50px 50px;
+}
+
+.slider__container {
+    width: 99999px;
+    transition: margin-left .4s;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    margin-top: -40px;
+    margin-right: 200px;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide {
+    margin-right: 100px;
+    flex: 0 0 100%;
+
+    border: 1px solid #2e8f7c;
+    box-shadow: 0px 0px 37px 4px rgba(46, 236, 197, 0.2);
+  }
+  
+  .slide > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carusel__button{
+    fill: #2e8f7c;
+  }
+
+  .carusel__button__prev{
+    
+  }
+  .carusel__button__next{
+    margin: 0px 5px;
+  }
+  
+  .prev__button,
+  .next__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(0deg, rgba(50,57,57, 1) 0%, rgba(25,32,31, 1) 100%);
+
+    border: 2px solid #153630;
+    border-radius: 100px;
+
+    outline: 1px solid #153630;
+    outline-offset: 4px;
+
+    padding: 8px 5px;
+    cursor: pointer;
+    z-index: 1;
+
+    transition-duration: 0.3s;
+  }
+  
+  .prev__button {
+    left: 30px;
+    padding-left: 15px;
+  }
+  
+  .next__button {
+    right: 30px;
+    padding-right: 5px;
+  }
+  
+  .prev__button:hover,
+  .next__button:hover{
+    border-color: #1f5047;
+    outline-color: #1f5047;
+    box-shadow: 0px 0px 37px 0px rgba(21, 54, 48, 0.5);
+  }
