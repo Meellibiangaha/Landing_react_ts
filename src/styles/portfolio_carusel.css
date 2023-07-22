@@ -1,20 +1,20 @@
 .slider__container__wrapper{
     width: 1360px;
     overflow: hidden;
-    padding: 50px 50px;
+    padding-top: 50px;
 }
 
 .slider__container {
     width: 99999px;
     transition: margin-left .4s;
     margin: 0;
-    padding: 0;
+    padding: 80px;
     position: relative;
     display: flex;
     flex-direction: row;
     overflow: hidden;
 
-    margin-top: -40px;
+    margin-top: -80px;
     margin-right: 200px;
   }
   
@@ -25,15 +25,14 @@
   
   .slide {
     margin-right: 100px;
-    flex: 0 0 100%;
 
     border: 1px solid #2e8f7c;
+    border-radius: 5px;
     box-shadow: 0px 0px 37px 4px rgba(46, 236, 197, 0.2);
   }
   
   .slide > img {
-    width: 100%;
-    height: auto;
+    
   }
 
   .carusel__button{
@@ -68,12 +67,12 @@
   }
   
   .prev__button {
-    left: 30px;
+    left: 55px;
     padding-left: 15px;
   }
   
   .next__button {
-    right: 30px;
+    left: 620px;
     padding-right: 5px;
   }
   

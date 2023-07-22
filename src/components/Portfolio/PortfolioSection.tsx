@@ -9,7 +9,7 @@ function PortfolioSection() {
     <div className='portfolio__wrapper'>
       <div className='portfolio__background portfolio__content__wrapper'>
 
-        <div className='portfolio__content__text'>
+        <div className='cooperate__content__flexbox__text'>
           <h1 className='portfolio__content__text_h1'>Наше портфолио</h1>
           <p className='portfolio__content__text_p'>В данном портфолио вы сможете увидеть кейсы наших работ на 2022 - 2023 год</p>
           <div>
