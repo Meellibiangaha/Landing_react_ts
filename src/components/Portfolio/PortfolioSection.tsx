@@ -4,7 +4,9 @@ import '../../styles/portfolio_carusel.css';
 import MyButtonRounded from '../UI/MyButton/MyButtonRounded';
 import PortfolioCarusel from './PortfolioCarusel';
 
+
 function PortfolioSection() {
+  
   return (
     <div className='portfolio__wrapper'>
       <div className='portfolio__background portfolio__content__wrapper'>
@@ -17,7 +19,7 @@ function PortfolioSection() {
           </div>
         </div>
 
-      <PortfolioCarusel/>
+        <PortfolioCarusel/>
 
       </div>
     </div>
