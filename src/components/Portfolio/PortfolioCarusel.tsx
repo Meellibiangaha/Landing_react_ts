@@ -46,7 +46,6 @@ function PortfolioCarusel() {
     });
     setPosition(newPosition);
     setСountBlock(newCountBlock);
-    console.log(position);
   };
 
   useEffect(() => {
@@ -56,7 +55,7 @@ function PortfolioCarusel() {
       setCaruselItem(caruselElement.querySelectorAll('.carusel__single').length - 1);
 
       const widthValue = caruselElement.querySelector('.carusel__single') as HTMLElement;
-      setWidth(widthValue?.clientWidth ?? null);
+      setWidth(widthValue.clientWidth + 100);
 
       setList(caruselElement.querySelector('.slider') as HTMLElement);
       setListElems(caruselElement.querySelectorAll('.carusel__single') as NodeListOf<HTMLElement>);

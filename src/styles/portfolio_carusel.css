@@ -9,7 +9,7 @@
     
     margin: 0;
     padding: 80px;
-    /* padding-left: 10px; */
+    padding-left: 50px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -67,12 +67,12 @@
   }
   
   .prev__button {
-    left: 55px;
+    left: 25px;
     padding-left: 15px;
   }
   
   .next__button {
-    left: 620px;
+    left: 590px;
     padding-right: 5px;
   }
   
