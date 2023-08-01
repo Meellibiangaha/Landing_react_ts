@@ -33,7 +33,7 @@ function PortfolioCarusel() {
   const [countBlock, setСountBlock] = useState(0); // счетчик видимого блока
 
   //вызывается функция слайдера, потом меняем position и countBlock через состояния
-  const setValueSlide = (func : Function) => {
+  const setValueSlide = (func: Function) => {
     //декомпозицией забираем наши новые значения
     const { newPosition, newCountBlock } = func({
       position,
@@ -55,7 +55,12 @@ function PortfolioCarusel() {
       setCaruselItem(caruselElement.querySelectorAll('.carusel__single').length - 1);
 
       const widthValue = caruselElement.querySelector('.carusel__single') as HTMLElement;
-      setWidth(widthValue.clientWidth + 100);
+      //это всё для того, чтобы найти margin-right, я в шоке
+      const slideElem = caruselElement.querySelector('.slide') as HTMLElement;
+      const computedStyles = window.getComputedStyle(slideElem);
+      const slideMarginValue = computedStyles.marginRight;
+      
+      setWidth(widthValue.clientWidth + parseFloat(slideMarginValue));
 
       setList(caruselElement.querySelector('.slider') as HTMLElement);
       setListElems(caruselElement.querySelectorAll('.carusel__single') as NodeListOf<HTMLElement>);

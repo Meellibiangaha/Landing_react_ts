@@ -14,7 +14,6 @@ export function nextSlide({ position, width, caruselItem, list, countBlock, coun
         list.style.marginLeft = valueChange(newPosition, 'px');
         newCountBlock = countBlock + 1;
     }
-    console.log(newPosition);
     return { newPosition, newCountBlock };
 }
 

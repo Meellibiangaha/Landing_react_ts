@@ -3,6 +3,7 @@ import '../../styles/portfolio_carusel.css';
 
 import MyButtonRounded from '../UI/MyButton/MyButtonRounded';
 import PortfolioCarusel from './PortfolioCarusel';
+import PortfolioTarifs from './PortfolioTarifs';
 
 
 function PortfolioSection() {
@@ -20,6 +21,7 @@ function PortfolioSection() {
         </div>
 
         <PortfolioCarusel/>
+        <PortfolioTarifs/>
 
       </div>
     </div>
