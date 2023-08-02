@@ -56,13 +56,13 @@
 /* tarifs */
 
 .portfolio__tarif__wrapper {
-    width: 1360px;
+    width: 1080px;
     overflow: hidden;
 
     margin-left: auto;
     margin-right: auto;
 
-    padding-top: 300px;
+    padding-top: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,6 +80,18 @@
     overflow: hidden;
 
     margin-top: -50px;
+}
+
+.portfolio__tarif__silder__wrapper {
+}
+
+.portfolio__tarif__silder__lenta {
+    display: flex;
+    flex-direction: row;
+
+    min-height: 600px;
+
+    transition: margin-left 0.4s;
 }
 
 .portfolio__tarif__silder_title {
@@ -104,8 +116,10 @@
     justify-content: space-between;
 
     padding: 44px 30px 25px;
-    margin: 0px 32px;
-    max-width: 370px;
+    margin: 60px 16px 0px;
+
+    max-width: 295px;
+    max-height: 420px;
 
     border-radius: 36px;
     border: 1px solid rgba(255, 255, 255, 0.20);
@@ -115,30 +129,31 @@
     font-style: normal;
     font-weight: 400;
 
-    fill: linear-gradient(219deg, rgba(49, 49, 52, 0.70) 0%, rgba(44, 44, 45, 0.70) 44%, rgba(41, 41, 41, 0.70) 100%);
-    stroke-width: 1px;
-    stroke: rgba(255, 255, 255, 0.10);
+    /* transition-duration: 1s; */
+    filter: brightness(60%);
 }
 
 .portfolio__tarif__single__active {
-    color: red;
+    margin-top: 0px;
+    max-width: 370px;
+    max-height: 570px;
+    filter: brightness(100%)
 }
 
 .tarif__h1 {
     text-align: center;
-    font-size: 32px;
+    font-size: 26px;
     line-height: normal;
 }
 
 .tarif__p {
     color: rgba(255, 255, 255, 0.75);
     text-align: center;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 18px;
 }
 
 .tarif__bottom__wrapper {
-    padding-top: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -151,24 +166,39 @@
 }
 
 .tarif__bottom__price {
-    font-size: 22px;
-    line-height: 34px;
-}
-
-.tarif__bottom__time {
-    color: rgba(255, 255, 255, 0.40);
     font-size: 17px;
     line-height: 26px;
 }
 
-.portfolio__tarif__silder__wrapper {
-    margin-left: -600px;
+.tarif__bottom__time {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 13px;
+    line-height: 20px;
 }
 
-.portfolio__tarif__silder__lenta {
-    display: flex;
-    flex-direction: row;
+
+.portfolio__tarif__single__active>.tarif__h1 {
+    font-size: 32px;
 }
+
+.portfolio__tarif__single__active>.tarif__p {
+    font-size: 17px;
+    line-height: 26px;
+}
+.portfolio__tarif__single__active>.tarif__bottom__wrapper {
+    padding-top: 30px;
+}
+
+.portfolio__tarif__single__active>.tarif__bottom__price {
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.portfolio__tarif__single__active>.tarif__bottom__time {
+    font-size: 17px;
+    line-height: 26px;
+}
+
 
 /* buttons */
 .prev__tarif__button,
@@ -184,11 +214,19 @@
     outline: 1px solid #153630;
     outline-offset: 4px;
 
-    padding: 8px 5px;
+    padding: 8px 6px;
     cursor: pointer;
     z-index: 1;
 
     transition-duration: 0.3s;
+}
+
+.prev__tarif__button {
+    left: 10px;
+}
+/* здесь и выше подбирал значения, не знаю как можно по другому сделать */
+.next__tarif__button {
+    left: 1020px;
 }
 
 .tarif__button {
@@ -196,17 +234,17 @@
 }
 
 .tarif__button__prev {
-    left: 25px;
-    padding-left: 15px;
+    padding-left: 2px;
+    margin-left: 5px;
 }
 
 .tarif__button__next {
-    left: 590px;
-    padding-right: 5px;
+    padding-right: 2px;
+    margin-left: 5px;
 }
 
-.tarif__button__prev:hover,
-.tarif__button__next:hover {
+.prev__tarif__button:hover,
+.next__tarif__button:hover {
     border-color: #1f5047;
     outline-color: #1f5047;
     box-shadow: 0px 0px 37px 0px rgba(21, 54, 48, 0.5);
