@@ -120,6 +120,7 @@
 
     max-width: 295px;
     max-height: 420px;
+    
 
     border-radius: 36px;
     border: 1px solid rgba(255, 255, 255, 0.20);
@@ -129,7 +130,7 @@
     font-style: normal;
     font-weight: 400;
 
-    /* transition-duration: 1s; */
+    transition: filter 0.4s;
     filter: brightness(60%);
 }
 

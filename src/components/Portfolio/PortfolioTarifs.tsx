@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import MyButtonRounded from "../UI/MyButton/MyButtonRounded";
 
-import { nextSlide, prevSlide } from "./CaruselFunck";
+import { nextSlideTarif, prevSlideTarif } from "./CaruselFunck";
 
 const TarifSingle = ({ title, text, price, time, className }: { title: string, text: string, price: string, time: string, className: string }) => {
     const combinedClassName = `portfolio__tarif__single ${className || ''}`;
@@ -80,7 +80,7 @@ function PortfolioTarifs() {
     const [caruselItem, setCaruselItem] = useState<number>(0);
 
     const [width, setWidth] = useState<number>(0);
-    const [count, setСount] = useState(1);  //na skolko div prokrutka
+    const [count, setСount] = useState(0);  //na skolko div prokrutka
 
     const [list, setList] = useState<HTMLElement>();
     const [listElems, setListElems] = useState<NodeListOf<HTMLElement>>(document.querySelectorAll('.carusel__single'));
@@ -104,6 +104,7 @@ function PortfolioTarifs() {
             setListElems(caruselElement.querySelectorAll('.portfolio__tarif__single') as NodeListOf<HTMLElement>);
 
             setСountBlock(1);
+            setСount(1);
         }
     }, [listElems.length]);
 
@@ -130,7 +131,7 @@ function PortfolioTarifs() {
 
     function PrevTarifBtn() {
         return (
-            <button className="prev__tarif__button" onClick={() => setValueSlide(prevSlide)}>
+            <button className="prev__tarif__button" onClick={() => setValueSlide(prevSlideTarif)}>
                 <svg className='tarif__button tarif__button__prev' xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M400-93.847 13.847-480 400-866.153l49.589 49.999L113.178-480l336.411 336.154L400-93.847Z" /></svg>
             </button>
         );
@@ -138,7 +139,7 @@ function PortfolioTarifs() {
 
     function NextTarifBtn() {
         return (
-            <button className="next__tarif__button" onClick={() => setValueSlide(nextSlide)}>
+            <button className="next__tarif__button" onClick={() => setValueSlide(nextSlideTarif)}>
                 <svg className='tarif__button tarif__button__next' xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m312.359-94.924-49.589-49.743 336.411-336.41L262.77-817.231l49.589-49.999 386.153 386.153L312.359-94.924Z" /></svg>
             </button>
         );
