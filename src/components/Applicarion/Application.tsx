@@ -8,7 +8,7 @@ function Application({ children, title }: { children: React.ReactNode, title: st
                 <h1 className="application__title">{title}</h1>
                 {children}
             </div>
-            <img className='' src={ApplicationImg} alt="" width='533px' height='529px' />
+            <img className='application__img' src={ApplicationImg} alt="" width='533px' height='529px' />
         </div>
     );
 }

@@ -21,3 +21,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.application__img{
+    position: relative;
+    top: -488px;
+    left: 1200px;
+}
