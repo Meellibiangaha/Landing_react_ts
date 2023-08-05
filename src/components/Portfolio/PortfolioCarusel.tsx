@@ -24,7 +24,7 @@ function PortfolioCarusel() {
   const [caruselItem, setCaruselItem] = useState<number>(0);
 
   const [width, setWidth] = useState<number>(0);
-  const [count, setСount] = useState(1);  //na skolko div prokrutka
+  const [count, setСount] = useState(0);  //na skolko div prokrutka
 
   const [list, setList] = useState<HTMLElement>();
   const [listElems, setListElems] = useState<NodeListOf<HTMLElement>>(document.querySelectorAll('.carusel__single'));
@@ -64,6 +64,8 @@ function PortfolioCarusel() {
 
       setList(caruselElement.querySelector('.slider') as HTMLElement);
       setListElems(caruselElement.querySelectorAll('.carusel__single') as NodeListOf<HTMLElement>);
+      
+      setСount(1);
     }
   }, []);
 

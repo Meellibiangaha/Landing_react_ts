@@ -1,0 +1,23 @@
+.application__wrapper {
+    padding-top: 150px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.application__content {
+    padding: 45px 240px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(122deg, #313134 0%, #222224 29%, #12473C 59%, #292929 100%);
+}
+
+.application__title {
+    text-shadow: 0px 0px 36px rgba(165, 252, 235, 0.20);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 55px;
+
+    background: linear-gradient(149deg, #B5FEEF 0%, #2EECC5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

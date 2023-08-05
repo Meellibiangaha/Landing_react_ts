@@ -27,3 +27,20 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+
+.flex__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.alignSelf{
+    
+}
+
+.width40{
+    width: 40%;
+}
+
+.width60{
+    width: 60%;
+}
