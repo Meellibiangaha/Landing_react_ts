@@ -7,6 +7,7 @@ import Application from './components/Applicarion/Application';
 import MyForm from './components/UI/MyFrom/MyForm';
 import MyInput from './components/UI/MyInput/MyInput';
 import MyButtonRounded from './components/UI/MyButton/MyButtonRounded';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -49,11 +50,10 @@ function App() {
               <MyButtonRounded className='width60' text='Отправить' />
             </div>
           </div>
-
-          
         </MyForm>
-        
       </Application>
+
+      <Footer title='Контакты'/>
     </>
   );
 }
