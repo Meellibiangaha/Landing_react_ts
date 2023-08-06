@@ -45,7 +45,7 @@ function App() {
               labelText='Ваш комментарий ( по желанию )'
               inputType='text'
             />
-            <div className='alignSelf'>
+            <div className='alignSelf__application__btn'>
               <MyButtonRounded className='width60' text='Отправить' />
             </div>
           </div>

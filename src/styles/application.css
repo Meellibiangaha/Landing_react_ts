@@ -23,7 +23,7 @@
 }
 
 .application__img{
-    position: relative;
-    top: -488px;
+    position: absolute;
     left: 1200px;
+    margin-top: -178px;
 }

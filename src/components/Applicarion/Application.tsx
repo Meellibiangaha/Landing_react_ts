@@ -6,9 +6,10 @@ function Application({ children, title }: { children: React.ReactNode, title: st
         <div className='application__wrapper'>
             <div className="application__content">
                 <h1 className="application__title">{title}</h1>
+                <img className='application__img' src={ApplicationImg} alt="" width='533px' height='529px' />
                 {children}
             </div>
-            <img className='application__img' src={ApplicationImg} alt="" width='533px' height='529px' />
+
         </div>
     );
 }
