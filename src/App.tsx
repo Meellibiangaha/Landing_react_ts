@@ -1,13 +1,15 @@
 import React from 'react';
+
 import HeaderBlock from './components/Header/HeaderBlock';
 import CooperateSection from './components/Cooperate/CooperateSection';
 import PortfolioSection from './components/Portfolio/PortfolioSection';
 import Application from './components/Applicarion/Application';
+import Footer from './components/Footer/Footer';
 
 import MyForm from './components/UI/MyFrom/MyForm';
 import MyInput from './components/UI/MyInput/MyInput';
 import MyButtonRounded from './components/UI/MyButton/MyButtonRounded';
-import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (

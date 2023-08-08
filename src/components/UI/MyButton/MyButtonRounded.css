@@ -1,7 +1,11 @@
 .button__rounded{
-    padding: 15px 30px;
+    padding: 12px 25px;
 
 	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+
 	border-radius: 49px;
 	border: 1.5px solid #2EECC5;
 	background: rgba(46, 236, 197, 0.10);
