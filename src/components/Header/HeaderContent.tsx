@@ -1,3 +1,4 @@
+import { handleScrollIntoView } from '../../config';
 import MyButtonRounded from '../UI/MyButton/MyButtonRounded';
 
 function HeaderContent() {
@@ -18,7 +19,10 @@ function HeaderContent() {
                 Мы - студия web-разработки, работаем уже более 3-х<br /> лет, готовы разработать для вас сайт в кротчайшие сроки.</p>
 
             <div className='header__content__btnDiv'>
-                <MyButtonRounded className='header__content__btn' text='Подробнее'/>
+                <MyButtonRounded 
+                className='header__content__btn' 
+                text='Подробнее'
+                handleFunc={() => handleScrollIntoView('.portfolio__tarif__silder_title')}/>
                 <a href='#' className='header__content__btnDiv_text'>Остались вопросы?</a>
             </div>
         </div>

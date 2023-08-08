@@ -174,13 +174,11 @@ function Footer({ title }: { title: string }) {
                 <div className='footer__links__wrapper'>
                     <div className='footer__links__container'>
                         {svgElemsArr.map((svgCode, index) =>
-                            <a href="#">
+                            <a href="#" key={index}>
                                 <MySvgComponent
                                     className='footer__link'
-                                    svgCode={svgCode}
-                                    key={index} />
+                                    svgCode={svgCode}/>
                             </a>
-
                         )}
                     </div>
                 </div>

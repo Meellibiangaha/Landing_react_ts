@@ -49,7 +49,7 @@ function App() {
               inputType='text'
             />
             <div className='alignSelf__application__btn'>
-              <MyButtonRounded className='width60' text='Отправить' />
+              <MyButtonRounded className='width60' text='Отправить'/>
             </div>
           </div>
         </MyForm>

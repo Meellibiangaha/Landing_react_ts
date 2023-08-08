@@ -17,7 +17,7 @@ const TarifSingle = ({ title, text, price, time, className }: { title: string, t
                     <div className="tarif__bottom__time">От {time} дней</div>
                 </div>
                 <div className="tarif__bottom__btn">
-                    <MyButtonRounded text="Подробнее" />
+                    <MyButtonRounded text="Подробнее"/>
                 </div>
             </div>
 

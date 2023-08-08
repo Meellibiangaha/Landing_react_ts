@@ -118,7 +118,7 @@
     padding: 44px 30px 25px;
     margin: 60px 16px 0px;
 
-    max-width: 295px;
+    max-width: 310px;
     max-height: 420px;
     
 
@@ -137,7 +137,7 @@
 .portfolio__tarif__single__active {
     margin-top: 0px;
     max-width: 370px;
-    max-height: 570px;
+    max-height: 600px;
     filter: brightness(100%)
 }
 

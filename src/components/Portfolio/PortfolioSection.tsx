@@ -17,7 +17,8 @@ function PortfolioSection() {
             <h1 className='portfolio__content__text_h1'>Наше портфолио</h1>
             <p className='portfolio__content__text_p'>В данном портфолио вы сможете увидеть кейсы наших работ на 2022 - 2023 год</p>
             <div>
-              <MyButtonRounded text='Компьютерные версии' />
+              <MyButtonRounded text='Компьютерные версии'
+              handleFunc={() => alert('Здесь могла быть ваша реклама')}/>
             </div>
           </div>
           <PortfolioCarusel />

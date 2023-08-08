@@ -1,3 +1,4 @@
+import { handleScrollIntoView } from "../../config";
 import MyButtonSquare from "../UI/MyButton/MyButtonSquare";
 import CooperateCard from "./CooperateCard";
 
@@ -98,7 +99,10 @@ function CooperateContent() {
                         <p className="cooperate__content__flexbox__text_p">Пока конкуренты говорят о том, что они лучшие - мы это доказываем делом.</p>
                         <p className="cooperate__content__flexbox__text_p">Вы можете ознакомиться с информацией о нас и посмотреть наше портфолио</p>
                         <div>
-                            <MyButtonSquare text="Портфолио" className="cooperate__content__flexbox__btn" />
+                            <MyButtonSquare 
+                            text="Портфолио" 
+                            className="cooperate__content__flexbox__btn" 
+                            handleFunc={() => handleScrollIntoView('.portfolio__content__wrapper')}/>
                         </div>
                     </div>
                     <CooperateCard
