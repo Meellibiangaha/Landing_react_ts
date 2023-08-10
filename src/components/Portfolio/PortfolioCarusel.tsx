@@ -10,7 +10,7 @@ import slide7 from '../../img/portfolio/portfolio_carusel/carusel_7.png';
 
 import { nextSlide, prevSlide } from './CaruselFunck';
 
-function CaruselImg({ src }: { src: string }) {
+const CaruselImg = ({ src }: { src: string }) => {
   return (
     <div className="slide">
       <img className='carusel__single' src={src} alt="" width='567px' height='363px' />

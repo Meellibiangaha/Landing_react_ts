@@ -1,0 +1,295 @@
+@media all and (max-width: 1900px) {
+    .application__img {
+        left: 1100px;
+    }
+
+    .width40 {
+        width: 35%;
+    }
+}
+
+@media all and (max-width: 1720px) {
+    .width40 {
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 1630px) {
+    .application__img {
+        left: 900px;
+    }
+
+    .width40 {
+        width: auto;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+    .header__nav__wrapper {
+        padding: 30px 100px;
+    }
+
+    .header__content {
+        padding: 200px 100px 120px;
+    }
+
+
+
+    .cooperate__flex__container {
+        padding: 50px 50px;
+    }
+
+    .portfolio__content__wrapper {
+        padding: 200px 0px 0px 140px;
+    }
+
+    .portfolio__tarif__wrapper {
+        padding-top: 100px;
+    }
+
+
+    .application__content {
+        padding: 45px 120px;
+    }
+
+    .application__img {
+        left: 900px;
+    }
+
+    .footer__title {
+        font-size: 90px;
+    }
+}
+
+@media all and (max-width: 1439px) {
+    .application__img {
+        left: 800px;
+    }
+}
+
+@media all and (max-width: 1439px) {
+    .application__img {
+        left: 700px;
+    }
+}
+
+@media all and (max-width: 1240px) {
+    .application__img {
+        left: 660px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .application__img {
+        display: none;
+    }
+
+    .width40 {
+        width: 100%;
+    }
+
+    .mobile__aplication__img {
+        display: block;
+    }
+
+
+    .footer__title__wrapper {
+        display: none;
+    }
+
+    .footer__links__wrapper {
+        margin-top: -40px;
+        position: relative;
+        width: 100%;
+
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: linear-gradient(110deg, #313134 0%, #222224 42.27%, #292929 100%);
+    }
+
+    .footer__link {
+        padding: 14px;
+        background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.1) 100%);
+    }
+
+    .footer__link:hover {
+        padding: 18px;
+    }
+
+    .footer__light__text {
+        padding: 20px;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .header__nav__wrapper {
+        padding: 30px 20px;
+    }
+    .header__content{
+        margin-top: 100px;
+        padding: 100px 40px 60px;
+    }
+    .header__content__bigText{
+        font-size: 50px;
+    }
+    .header__content__shadow{
+        bottom: 30%;
+        width: 50%;
+    }
+    .header__content__smallText{
+        font-size: 18px;
+    }
+
+    .button__rounded {
+        font-size: 14px;
+    }
+    .header__content__btnDiv_text{
+        font-size: 16px;
+    }
+
+    .header__img__relative_div{
+        margin-top: 200px;
+    }
+    .header__img__relative2{
+        margin-left: 700px;
+    }
+    .header__img__relative1{
+        margin-left: 700px;
+    }
+
+
+
+    .cooperate__flex__container{
+        padding: 40px 0px 0px;
+    }
+    .cooperate__content__flexbox__text_h1{
+        padding-right: 20px;
+    }
+
+    .cooparate__card__wrapper{
+        max-width: 320px;
+        max-height: 320px;
+    }
+    .cooparate__card_h3{
+        font-size: 22px;
+    }
+    .cooparate__card_p{
+        font-size: 16px;
+    }
+    .svg__hover{
+        height: 50%;
+    }
+    .svg__hover > svg{
+        height: 100px;
+        width: 106px;
+    }
+
+    .portfolio__content__wrapper{
+        padding: 100px 0px 0px 60px;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .header__nav__wrapper{
+        padding: 30px 30px;
+    }
+    .header__nav{
+        padding-right: 30px;
+    }
+    .header__nav__btn__wrapper{
+        display: none;
+    }
+    .header__img__relative1{
+        margin-left: 500px;
+    }
+    .header__img__relative2{
+        margin-left: 550px;
+    }
+
+    .cooperate__content__flexbox__text_h1{
+        font-size: 45px;
+    }
+    .cooperate__content__flexbox__text_p{
+        font-size: 15px;
+    }
+    .cooperate__content__flexbox__btn{
+        margin-top: 20px;
+    }
+
+    .cooparate__card__wrapper{
+        max-width: 280px;
+        max-height: 300px;
+    }
+    .cooparate__card_h3{
+        padding: 20px 20px 0px;
+        font-size: 18px;
+    }
+    .cooparate__card_p{
+        padding: 20px 20px 0px;
+    }
+
+    .button__square {
+        font-size: 14px;
+    }
+
+
+    .portfolio__content__wrapper{
+        flex-direction: column;
+    }
+    .portfolio__content__text_h1{
+        font-size: 45px;
+    }
+    .portfolio__content__text_p{
+        font-size: 15px;
+    }
+    .slider__container__wrapper{
+        width: auto;
+    }
+
+
+    .portfolio__tarif__silder{
+        padding: 80px 0px 150px;
+    }
+
+    .portfolio__tarif__wrapper{
+        width: auto;
+    }
+    .prev__tarif__button{
+        left: 350px;
+        top: 90%;
+    }
+    .next__tarif__button{
+        left: 650px;
+        top: 90%;
+    }
+
+
+    .tarif__h1{
+        font-size: 24px
+    }
+    .portfolio__tarif__single__active>.tarif__h1 {
+        font-size: 30px;
+    }
+    .portfolio__tarif__single__active>.tarif__p {
+        font-size: 15px;
+    }
+
+    .portfolio__tarif__single{
+        max-height: 400px;
+    }
+    .portfolio__tarif__single__active {
+        max-height: 550px;
+    }
+
+
+    .application__wrapper{
+        padding-top: 50px;
+    }
+    .application__title{
+        font-size: 45px;
+    }
+    .myInput__label{
+        font-size: 15px;
+    }
+}

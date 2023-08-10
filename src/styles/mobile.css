@@ -1,0 +1,37 @@
+@media all and (max-width: 768px) {
+    .cooperate__content__flexbox__text{
+        align-items: center;
+    }
+    .portfolio__content__text_p{
+        padding: 18px 70px 20px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .prev__tarif__button{
+        left: 300px;
+    }
+    .next__tarif__button{
+        left: 500px;
+    }
+
+
+    .application__content{
+        padding: 30px 50px;
+    }
+
+    .footer__link{
+        padding: 10px;
+    }
+    .footer__link > svg{
+        height: 36px;
+        width: 36px;
+    }
+    .footer__link:hover{
+        padding: 16px;
+    }
+    .footer__link:hover> svg{
+        width: 40px;
+        height: 40px;
+    }
+}

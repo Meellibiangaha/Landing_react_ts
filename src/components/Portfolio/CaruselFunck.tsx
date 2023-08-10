@@ -1,6 +1,3 @@
-import { FC } from "react";
-
-
 const valueChange = (value: number, unit: 'px' | 'rem' | 'em') => `${value}${unit}`;
 
 

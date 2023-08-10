@@ -4,6 +4,7 @@ import '../../styles/footer.css';
 
 import starRight from '../../img/footer/star_right.png';
 import starLeft from '../../img/footer/star_left.png';
+import ApplicationImg from '../../img/application/phone.png';
 
 import MySvgComponent from '../MySvgComponent/MySvgComponent';
 
@@ -170,6 +171,8 @@ function Footer({ title }: { title: string }) {
                     </div>
 
                 </div>
+
+                <img className='mobile__aplication__img' src={ApplicationImg} alt="" width='533' height='529' />
 
                 <div className='footer__links__wrapper'>
                     <div className='footer__links__container'>

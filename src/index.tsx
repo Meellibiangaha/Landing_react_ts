@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 import './styles/index.css';
+import './styles/notebook.css';
 import './styles/mobile.css';
 
 const MegaWrapper = ({ children }: { children: React.ReactNode }) => {

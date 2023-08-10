@@ -27,3 +27,7 @@
     left: 1200px;
     margin-top: -178px;
 }
+
+.mobile__aplication__img{
+    display: none;
+}

@@ -4,6 +4,8 @@
 	background-position: center;
 	background-size: cover;
 	width: 100%;
+
+	overflow: hidden;
 }
 
 .header__background {
