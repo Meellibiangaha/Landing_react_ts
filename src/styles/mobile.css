@@ -1,37 +1,324 @@
 @media all and (max-width: 768px) {
-    .cooperate__content__flexbox__text{
+    .cooperate__content__flexbox__text {
         align-items: center;
     }
-    .portfolio__content__text_p{
+
+    .cooperate__content__flexbox__text_h1 {
+        text-align: center;
+        padding: 0px 50px 0px;
+    }
+
+    .cooperate__content__flexbox {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cooparate__card__wrapper {
+        max-width: 420px;
+        max-height: 420px;
+    }
+
+    .cooparate__card_h3 {
+        font-size: 22px;
+    }
+
+    .cooparate__card_p {
+        font-size: 12px;
+    }
+
+    .svg__hover>svg {
+        height: 139px;
+        width: 158px;
+    }
+
+
+
+    .portfolio__content__text_p {
         padding: 18px 70px 20px;
         width: 80%;
         text-align: center;
     }
 
-    .prev__tarif__button{
+
+    .prev__tarif__button {
         left: 300px;
     }
-    .next__tarif__button{
+
+    .next__tarif__button {
         left: 500px;
     }
 
 
-    .application__content{
+    .application__content {
         padding: 30px 50px;
     }
 
-    .footer__link{
+    .application__title {
+        text-align: center;
+    }
+
+    .myForm {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .myInput__wrapper {
+        margin-right: 0;
+    }
+
+    .alignSelf__application__btn {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+
+
+
+    .footer__link {
         padding: 10px;
     }
-    .footer__link > svg{
+
+    .footer__link>svg {
         height: 36px;
         width: 36px;
     }
-    .footer__link:hover{
+
+    .footer__link:hover {
         padding: 16px;
     }
-    .footer__link:hover> svg{
+
+    .footer__link:hover>svg {
         width: 40px;
         height: 40px;
+    }
+}
+
+@media all and (max-width: 545px) {
+    .prev__tarif__button {
+        left: 100px;
+    }
+
+    .next__tarif__button {
+        left: 400px;
+    }
+
+    .mobile__aplication__img {
+        width: 420px;
+        height: 423px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .header__nav__wrapper {
+        flex-direction: row-reverse;
+    }
+
+    .header__nav__wrapper__links {
+        display: none;
+    }
+
+
+    .header__content {
+        padding: 14px 24px 0px;
+        width: 100%;
+    }
+
+    .header__content__shadow{
+        bottom: 80%;
+        width: 100%;
+    }
+
+    .header__content__bigText {
+        font-size: 27px;
+    }
+
+    .header__content__smallText {
+        font-size: 13px;
+    }
+
+    .button__rounded {
+        font-size: 11px;
+    }
+
+    .header__content__btnDiv_text {
+        display: none;
+    }
+
+    .header__img__relative_div {
+        margin-top: 400px;
+    }
+
+    .header__img__relative1 {
+        margin-left: 40px;
+        width: 324px;
+        height: 412px;
+    }
+
+    .header__img__relative2 {
+        margin-left: 70px;
+        width: 337px;
+        height: 337px;
+    }
+
+
+    .cooperate__flex__container__wrapper {
+        padding: 0px 24px;
+    }
+
+    .cooperate__content__flexbox__text_h1 {
+        font-size: 30px;
+        padding: 0px 0px 20px;
+    }
+
+    .cooperate__content__flexbox__text_p {
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .portfolio__content__wrapper {
+        padding: 100px 0px 0px;
+    }
+
+    .portfolio__content__text_h1 {
+        font-size: 30px;
+    }
+
+    .portfolio__content__text_p {
+        padding: 18px 0px 20px;
+    }
+
+
+    .slider__container {
+        padding-left: 80px;
+    }
+
+    .slide>img {
+        width: 256px;
+        height: 151px;
+    }
+
+    .prev__button {
+        left: 85px;
+        top: 90%;
+    }
+
+    .next__button {
+        left: 285px;
+        top: 90%;
+    }
+
+    .portfolio__tarif__wrapper {
+        padding-top: 0px;
+    }
+    .portfolio__tarif__silder{
+        padding-bottom: 50px;
+    }
+
+    .portfolio__tarif__silder_title {
+        font-size: 30px;
+    }
+
+    .portfolio__tarif__single {
+        padding: 25px 20px 9px;
+        margin: 0px 16px 0px;
+
+        max-width: 274px;
+        max-height: 384px;
+
+
+    }
+
+    .portfolio__tarif__single__active {
+        max-width: 274px;
+        max-height: 384px;
+    }
+
+    .portfolio__tarif__single__active>.tarif__h1 {
+        font-size: 24px;
+    }
+
+    .portfolio__tarif__single__active>.tarif__bottom__wrapper {
+        padding-top: 0px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+    .tarif__bottom__wrapper {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+    .tarif__p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .portfolio__tarif__single__active>.tarif__p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .tarif__bottom__price {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .tarif__bottom__time {
+        line-height: 19px;
+    }
+
+
+    .prev__tarif__button {
+        left: 80px;
+        top: 80%;
+    }
+
+    .next__tarif__button {
+        left: 280px;
+        top: 80%;
+    }
+
+
+    .application__title {
+        font-size: 30px;
+    }
+
+    .mobile__aplication__img {
+        width: 320px;
+        height: 323px;
+    }
+
+    .footer__link {
+        padding: 8px;
+    }
+
+    .footer__link>svg {
+        height: 26px;
+        width: 26px;
+    }
+
+    .footer__link:hover {
+        padding: 12px;
+    }
+
+    .footer__link:hover>svg {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .footer__light__text {
+        font-size: 9px;
+    }
+
+    .footer__dark__text {
+        font-size: 9px;
     }
 }
